@@ -1,0 +1,184 @@
+
+
+*{   margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'Lato',sans-serif;
+    text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	
+}
+
+i{	color:#939393;
+	font-size:200%;
+	padding-top:-10px;
+	
+}
+.fa { font-family: 'FontAwesome' !important; }
+.contactimg{
+	height:200px;
+	width:auto;
+	overflow:hidden;
+	
+}
+.row {
+	max-width: 1140px;
+	margin:0 auto;
+	margin-bottom:20px;
+	margin-top:20px;
+	
+}
+.heading{
+	font-family:'Lato',sans-serif;
+	text-align:center;
+	color:#bdbdbd;
+	letter-spacing:1px;
+}
+}
+.logo{
+	height:100px;
+	width:auto;
+	float:left;
+	margin-top:20px;
+	margin-left:50px;
+}
+.iitklogo{
+    height: 15vh;
+    width:auto;
+}
+h3, p{
+	margin-bottom:0px;
+	margin-top:0px;
+}
+.trans
+{
+	background-color:rgba(0,0,0,0);
+    border: 0px solid black;
+
+}
+.navi{
+	float:right;
+	padding-top:30px;
+	padding-right:0px;
+	
+}
+.text-center a:hover{
+    text-decoration: none;
+}
+.navi ul li a:link,.navi ul li a:visited{
+	border-bottom:2px solid transparent;
+	padding-bottom:5px;
+	transition:border 0.2s;
+}
+.navi ul li a:hover,.navi ul li a:active{
+	border-bottom:2px solid #bdbdbd ;
+	padding-bottom:5px;
+	
+}
+.servicerow{
+	margin-bottom:4%;
+}
+#map{
+	width:20%;
+	float:right;
+}
+.contactdiv img{
+	-webkit-filter: brightness(90%);
+    filter:  brightness(90%);
+	transition:-webkit-filter 0.3s;
+	margin-bottom:10px;
+}
+.contactdiv img:hover {
+	-webkit-filter:brightness(100%);
+    filter:  brightness(100%);
+}
+
+.shadowbox{
+	-webkit-box-shadow: 10px 10px 15px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 15px -3px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 15px -3px rgba(0,0,0,0.75)
+}
+
+.contactdet{
+	display:none;
+}
+.contact{
+	
+	color:#939393;
+	letter-spacing:0.5px;
+	margin-top:5px;
+	font-family:'Lato',sans-serif;
+	font-size:120%;
+}
+.name{
+	width:40%;
+	margin:0 0 0 0;
+}
+hr{ height:5px;
+	width:70%;
+	margin: 0 auto;
+}
+
+.navrow{
+    margin-bottom: 5%;
+    padding-bottom: 6vh;
+}
+body {
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(abbg.jpg);
+background-repeat:no-repeat;
+background-position:center-center;
+background-attachment:fixed;
+background-size: 100% 100%;
+background-size:cover;
+    padding-top: 10px; 
+}
+
+
+@media(min-width:768px) {
+    body {
+        padding-top: 10px; 
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+.text{
+	font-family:'Lato',sans-serif;
+	
+	text-align:center;
+	color:#bdbdbd;
+	letter-spacing:1px;
+}
+.navtext{
+	font-size:120%;
+	color:#bdbdbd;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+.imgblack{
+    padding-bottom:15px;
+}
+
+.carousel {
+ width=90vw;
+    height=50vw;
+  margin-bottom: 60px;
+}
+.lastrow {
+		margin-bottom : 5%;
+}
+.carousel .item {
+  
+  background-color: transparent;
+}
+.carousel-inner > .item > img {
+  position: relative;
+  top: 0;
+  left: 0;
+  height=50vw;
+  min-width: auto;
+  margin: 0 auto;
+  
+}
