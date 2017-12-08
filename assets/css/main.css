@@ -3120,7 +3120,10 @@
 	}
 
 		.wrapper.style2 {
-			background: #c73a5b;
+			/*background: #c73a5b;*/
+			height : 40vh;
+			background-size : cover;
+			background-image : url('../../hallimages/mughals.png')
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
@@ -3419,8 +3422,10 @@
 			}
 
 				#banner .content header h2 {
-					font-size: 2.5em;
+					font-size: 3.5em;
 					margin: 0;
+					font-weight : 400;
+					/*color : #ffc718;*/
 				}
 
 				#banner .content header p {
@@ -3749,7 +3754,7 @@
 				}
 
 					#banner .content header h2 {
-						font-size: 1.5em;
+						font-size: 3.5em;
 					}
 
 					#banner .content .image {
