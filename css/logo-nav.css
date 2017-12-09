@@ -35,7 +35,7 @@ i{	color:#939393;
 	color:#bdbdbd;
 	letter-spacing:1px;
 }
-}
+
 .logo{
 	height:100px;
 	width:auto;
@@ -162,12 +162,12 @@ background-size:cover;
 }
 
 .carousel {
- width=90vw;
-    height=50vw;
-  margin-bottom: 60px;
+	width: 90vw;
+	height: 50vw;
+	margin-bottom: 60px;
 }
 .lastrow {
-		margin-bottom : 5%;
+	margin-bottom : 5%;
 }
 .carousel .item {
   
@@ -177,7 +177,7 @@ background-size:cover;
   position: relative;
   top: 0;
   left: 0;
-  height=50vw;
+  height: 50vw;
   min-width: auto;
   margin: 0 auto;
   
